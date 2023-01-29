@@ -186,8 +186,12 @@ font-family: 'Raleway', sans-serif;
     opacity: 0; 
     transform: scale(0.1, 1);
   }
-  
-  
+  .qr{
+    background-image: url(/Sudhee_23_CanteenApp/Random_QR_code_3_1631181316556.jpeg);
+  }
+  /* #href{
+    z-index: inherit;
+  } */
   .cart-item{
     display: flex;
     align-items: center;
@@ -212,6 +216,9 @@ font-family: 'Raleway', sans-serif;
     max-width: 43px;
     max-height: 43px;
     border-radius: 50%;
+  }
+  .checkoutbtn{
+    margin: 20px 20px;
   }
   .fa-trash:hover{
     cursor: pointer;
